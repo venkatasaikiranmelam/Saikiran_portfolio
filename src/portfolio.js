@@ -62,31 +62,35 @@ const skillsSection = {
     emoji("⚡ Specialize in Chat Analytics, Generative AI, and multi-agent orchestration")
   ],
 
-  softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "R", fontAwesomeClassname: "fab fa-r-project" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "PySpark", fontAwesomeClassname: "custom-pyspark" }, // needs custom SVG
-    { skillName: "TensorFlow", fontAwesomeClassname: "custom-tensorflow" }, // custom SVG or devicon
-    { skillName: "PyTorch", fontAwesomeClassname: "custom-pytorch" }, // custom SVG
-    { skillName: "Power BI", fontAwesomeClassname: "custom-powerbi" }, // custom SVG
-    { skillName: "Tableau", fontAwesomeClassname: "custom-tableau" }, // custom SVG
-    { skillName: "Grafana", fontAwesomeClassname: "custom-grafana" }, // custom SVG
-    { skillName: "Snowflake", fontAwesomeClassname: "custom-snowflake" }, // custom SVG
-    { skillName: "Azure", fontAwesomeClassname: "fab fa-microsoft" }, // generic MS logo
-    { skillName: "Azure Data Factory", fontAwesomeClassname: "custom-adf" }, // custom
-    { skillName: "Vertex AI", fontAwesomeClassname: "custom-vertexai" }, // custom
-    { skillName: "Apache Spark", fontAwesomeClassname: "custom-spark" }, // custom
-    { skillName: "Apache Airflow", fontAwesomeClassname: "custom-airflow" }, // custom
-    { skillName: "Kafka", fontAwesomeClassname: "custom-kafka" }, // custom
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "Jupyter", fontAwesomeClassname: "custom-jupyter" }, // custom
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "PowerPoint", fontAwesomeClassname: "fas fa-file-powerpoint" },
-    { skillName: "BERT / LLMs", fontAwesomeClassname: "custom-bert" }, // custom
-    { skillName: "LangChain / CrewAI", fontAwesomeClassname: "custom-langchain" } // custom
-  ],
+softwareSkills: [
+  { skillName: "Python", iconifyClass: "logos:python" },
+  { skillName: "R", iconifyClass: "logos:r-lang" },
+  { skillName: "SQL", iconifyClass: "vscode-icons:file-type-sql" },
+  { skillName: "PySpark", iconifyClass: "simple-icons:apachespark" },
+  { skillName: "TensorFlow", iconifyClass: "logos:tensorflow" },
+  { skillName: "PyTorch", iconifyClass: "logos:pytorch-icon" },
+  { skillName: "Power BI", iconifyClass: "logos:microsoft-power-bi" },
+  { skillName: "Tableau", iconifyClass: "logos:tableau-icon"  },
+  { skillName: "Grafana", iconifyClass: "logos:grafana" },
+  { skillName: "Snowflake", iconifyClass: "logos:snowflake-icon" },
+  { skillName: "Azure", iconifyClass: "logos:microsoft-azure" },
+  { skillName: "Azure Data Factory", iconifyClass: "logos:microsoft-azure" },
+  { skillName: "Vertex AI", iconifyClass: "logos:google-cloud" },
+  { skillName: "Apache Spark", iconifyClass: "simple-icons:apachespark" },
+  { skillName: "Apache Airflow", iconifyClass: "simple-icons:apacheairflow" },
+  { skillName: "Kafka", iconifyClass: "simple-icons:apachekafka" },
+  { skillName: "Docker", iconifyClass: "logos:docker-icon" },
+  { skillName: "Git", iconifyClass: "logos:git-icon" },
+  { skillName: "Jupyter", iconifyClass: "logos:jupyter" },
+  { skillName: "Linux", iconifyClass: "logos:linux-tux" },
+  { skillName: "PowerPoint", iconifyClass: "vscode-icons:file-type-powerpoint2" },
+  { skillName: "BERT / LLMs", iconifyClass: "ph:brain-duotone" },
+  { skillName: "LangChain / CrewAI", iconifyClass: "material-symbols:hub" },
+  { skillName: "AWS", iconifyClass: "logos:aws" },
+  { skillName: "AWS Lambda", iconifyClass: "logos:aws-lambda" },
+  { skillName: "AWS S3", iconifyClass: "logos:aws-s3" },
+  { skillName: "AWS Glue", iconifyClass: "logos:aws-glue" }, // No icon exists yet, fallback to AWS
+ ],
   display: true
 };
 
@@ -219,6 +223,22 @@ const bigProjects = {
         {
           name: "💻 GitHub Repo",
           url: "https://github.com/venkatasaikiranmelam/keelworks-chatbot-api"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Dashboard.png"),
+      projectName: "Global Market Dashboard",
+      projectDesc:
+        "An interactive dashboard visualizing real-time economic data: Top 30 GDP nations, S&P 500, currency exchange, oil prices, and correlation trends using Streamlit and Plotly.",
+      footerLink: [
+        {
+          name: "🌐 Live Monitor",
+          url: "https://global-market-dashboard.streamlit.app/"
+        },
+        {
+          name: "💻 GitHub Repo",
+          url: "https://github.com/venkatasaikiranmelam/global-market-dashboard"
         }
       ]
     }
