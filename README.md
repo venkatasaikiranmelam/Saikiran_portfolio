@@ -1,141 +1,99 @@
-# 💼 Saikiran Melam – Personal Portfolio Website
+# 👋 Hi, I'm Saikiran Melam
 
-[![Live](https://img.shields.io/badge/Visit-Live%20Site-green?style=for-the-badge&logo=vercel&logoColor=white)](https://www.saikiranmelam.com/)
+[![Live Site](https://img.shields.io/badge/🌐%20Visit-saikiranmelam.com-brightgreen?style=for-the-badge)](https://www.saikiranmelam.com/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saikiranmelam/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venkatasaikiranmelam)
 
-A responsive portfolio site to showcase my skills, projects, and experience as a Data Enthusiast focused on Analytics, Machine Learning, LLMs, and Intelligent Automation.
-
----
-
-## 🧠 Domain-Wise Skills Section
-
-This project uses **domain-based grouping** for software skills, allowing each group to be displayed under a specific domain title.
-
-### ✅ Configure in `portfolio.js` like so:
-
-```js
-softwareSkills: [
-  {
-    domain: "Programming Languages",
-    skills: [
-      { skillName: "Python", imagePath: "icons/python.svg" },
-      { skillName: "R", imagePath: "icons/r.svg" },
-      { skillName: "SQL", imagePath: "icons/sql.svg" }
-    ]
-  },
-  {
-    domain: "AI / ML / LLMs",
-    skills: [
-      { skillName: "TensorFlow", imagePath: "icons/tensorflow.svg" },
-      { skillName: "BERT / LLMs", imagePath: "icons/bert.svg" },
-      { skillName: "LangChain", imagePath: "icons/langchain.svg" },
-      { skillName: "OpenAI", imagePath: "icons/openai.svg" },
-      { skillName: "Hugging Face", imagePath: "icons/huggingface.svg" }
-    ]
-  },
-  {
-    domain: "Cloud Platforms",
-    skills: [
-      { skillName: "Azure", imagePath: "icons/azure.svg" },
-      { skillName: "Azure Data Factory", imagePath: "icons/azure-data-factory.svg" },
-      { skillName: "AWS", imagePath: "icons/aws.svg" },
-      { skillName: "AWS Lambda", imagePath: "icons/aws-lambda.svg" },
-      { skillName: "AWS EC2", imagePath: "icons/aws-ec2.svg" },
-      { skillName: "AWS Glue", imagePath: "icons/aws-glue.svg" }
-    ]
-  },
-  {
-    domain: "Big Data & Orchestration",
-    skills: [
-      { skillName: "Apache Spark", imagePath: "icons/apache-spark.svg" },
-      { skillName: "Airflow", imagePath: "icons/apache-airflow.svg" },
-      { skillName: "Kafka", imagePath: "icons/kafka.svg" },
-      { skillName: "Snowflake", imagePath: "icons/snowflake.svg" },
-      { skillName: "PySpark", imagePath: "icons/pyspark.svg" }
-    ]
-  },
-  {
-    domain: "BI & Visualization",
-    skills: [
-      { skillName: "Power BI", imagePath: "icons/power-bi.svg" },
-      { skillName: "Tableau", imagePath: "icons/tableau.svg" },
-      { skillName: "Grafana", imagePath: "icons/grafana.svg" }
-    ]
-  },
-  {
-    domain: "Dev Tools",
-    skills: [
-      { skillName: "Git", imagePath: "icons/git.svg" },
-      { skillName: "GitHub", imagePath: "icons/github.svg" },
-      { skillName: "Docker", imagePath: "icons/docker.svg" },
-      { skillName: "Jupyter", imagePath: "icons/jupyter.svg" },
-      { skillName: "Excel", imagePath: "icons/excel.svg" },
-      { skillName: "Linux", imagePath: "icons/linux.svg" }
-    ]
-  }
-];
-```
-
-📌 **All icons must be stored in `public/icons/` and named exactly as specified in `imagePath`** (e.g., `python.svg`, `azure-data-factory.svg`, etc).
+Welcome to my personal portfolio website — a space where I showcase my skills, experiences, and passion for data-driven solutions. Whether it's building predictive models, creating insightful dashboards, or exploring cutting-edge AI and automation, I bring curiosity and commitment to every project.
 
 ---
 
-## 📁 Folder Structure
+## ✨ About This Portfolio
 
-```
-Saikiran_portfolio/
-├── public/
-│   └── icons/              # All skill icons go here
-├── src/
-│   ├── containers/
-│   │   └── Skills/
-│   │       └── SoftwareSkill.js  # Skill rendering component
-│   └── portfolio.js        # Configuration file for profile and skills
-├── assets/
-│   └── lottie/             # Optional animations (e.g., splashAnimation)
-├── README.md               # This file
-```
+This portfolio was built to present my journey as a **Data Enthusiast** — combining **Analytics, Machine Learning, LLMs**, and **Intelligent Automation** into real-world impact. Designed with React, styled for responsiveness, and enhanced using animations, this site reflects my work and growth.
+
+### 🖼️ Visual Experience
+
+> 🔄 Powered by beautiful **Lottie animations** that bring each section to life — from introductions to project showcases.
 
 ---
 
-## 🚀 Getting Started
+## 🧠 Domain-Wise Skills
 
-### To run locally:
+Organized into meaningful categories to help visitors quickly understand where I specialize.
 
-```bash
-git clone https://github.com/venkatasaikiranmelam/Saikiran_portfolio.git
-cd Saikiran_portfolio
-npm install
-npm start
-```
+### 🔹 Programming Languages
+- Python 🐍
+- R 📊
+- SQL 🧩
+
+### 🔹 AI / ML / LLMs
+- TensorFlow
+- PyTorch
+- BERT, OpenAI APIs
+- LangChain, Hugging Face
+
+### 🔹 Cloud Platforms
+- Microsoft Azure ☁️
+- Azure Data Factory
+- AWS (S3, Lambda, EC2, Glue)
+
+### 🔹 Big Data & Orchestration
+- Apache Spark
+- Apache Airflow
+- Kafka
+- Snowflake
+- PySpark
+
+### 🔹 BI & Visualization
+- Power BI
+- Tableau
+- Grafana
+
+### 🔹 Dev Tools & Utilities
+- Git & GitHub
+- Docker 🐳
+- Jupyter Notebooks
+- Excel
+- Linux
 
 ---
 
-## 🌍 Deployment
+## 🚀 How It Works
 
-Deploy your portfolio site for **free** using:
-
-- [Vercel](https://vercel.com/)
-- [Netlify](https://netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
-
----
-
-## 🛠 Tech Stack
-
-- **React.js**
-- **JavaScript / JSX**
-- **HTML / CSS**
-- **Lottie animations**
-- **Node.js (for development)**
+This portfolio is built using:
+- ⚛️ **React.js** for front-end
+- 🎨 **SCSS** for styling
+- 💥 **Lottie animations** for dynamic visuals
+- 🌐 Deployed on [Vercel](https://vercel.com/)
 
 ---
 
-## 📬 Connect with Me
+## 💡 Highlights
 
-- 🌐 [Website](https://www.saikiranmelam.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/saikiranmelam)
-- 💻 [GitHub](https://github.com/venkatasaikiranmelam)
+- Fully mobile-responsive
+- Icon-based skills section with domain-wise grouping
+- Dark/light mode supported
+- Modular component structure
+- Lottie integration adds a smooth visual flow
+
+---
+
+## 🖥️ Live Preview
+
+🌍 Visit [saikiranmelam.com](https://www.saikiranmelam.com) to explore the full portfolio in action.
+
+---
+
+## 🙌 Let’s Connect
+
+I’m always excited to connect, collaborate, and learn from others in the tech space. Feel free to reach out!
+
+📧 Email: melamsaikiran@gmail.com  
+💼 LinkedIn: [Saikiran Melam](https://www.linkedin.com/in/saikiranmelam)  
+💻 GitHub: [venkatasaikiranmelam](https://github.com/venkatasaikiranmelam)
 
 ---
 
 © 2025 Saikiran Melam. All rights reserved.
+
