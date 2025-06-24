@@ -1,8 +1,9 @@
-echo "# 💼 Saikiran Melam – Personal Portfolio Website
+# 💼 Saikiran Melam – Personal Portfolio Website
+
+[![Live](https://img.shields.io/badge/Visit-Live%20Site-green?style=for-the-badge&logo=vercel&logoColor=white)](https://www.saikiranmelam.com/)
 
 A responsive portfolio site to showcase my skills, projects, and experience as a Data Enthusiast focused on Analytics, Machine Learning, LLMs, and Intelligent Automation.
 
-Live URL: https://www.saikiranmelam.com/
 
 ---
 
