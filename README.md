@@ -124,3 +124,8 @@ Your app will run on \`http://localhost:3000\`.
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE)." > README.md
+
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/your-repo-name?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/your-repo-name?style=flat-square)
+![GitHub](https://img.shields.io/github/license/your-username/your-repo-name?style=flat-square)
+
