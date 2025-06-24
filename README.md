@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saikiranmelam/)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venkatasaikiranmelam)
 
-Welcome to my personal portfolio website — a space where I showcase my skills, experiences, and passion for data-driven solutions. Whether it's building predictive models, creating insightful dashboards, or exploring cutting-edge AI and automation, I bring curiosity and commitment to every project.
+Welcome to my personal portfolio website a space where I showcase my skills, experiences, and passion for data-driven solutions. Whether it's building predictive models, creating insightful dashboards, or exploring cutting-edge AI and automation, I bring curiosity and commitment to every project.
 
 ---
 
