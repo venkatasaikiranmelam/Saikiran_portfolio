@@ -2,7 +2,7 @@ echo "# 💼 Saikiran Melam – Personal Portfolio Website
 
 A responsive portfolio site to showcase my skills, projects, and experience as a Data Enthusiast focused on Analytics, Machine Learning, LLMs, and Intelligent Automation.
 
-Live URL: [Coming Soon or your deployed URL]
+Live URL: https://www.saikiranmelam.com/
 
 ---
 
@@ -116,7 +116,7 @@ Your app will run on \`http://localhost:3000\`.
 
 ## 📸 Screenshots
 
-> (Optional: Add screenshots of the Skills section with domain segregation and icons)
+
 
 ---
 
