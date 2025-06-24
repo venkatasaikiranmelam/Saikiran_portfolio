@@ -3,14 +3,6 @@ import "./SoftwareSkill.scss";
 import { skillsSection } from "../../portfolio";
 
 export default function SoftwareSkill() {
-  // Converts skill name to filename: "Power BI" → "power-bi.svg"
-  const getIconPath = (skillName) => {
-    return `/icons/${skillName
-      .toLowerCase()
-      .replace(/\s+/g, "-")
-      .replace(/[\/]/g, "-")}.svg`;
-  };
-
   return (
     <div className="software-skills-main-div">
       <ul className="dev-icons">
@@ -22,7 +14,7 @@ export default function SoftwareSkill() {
             title={skill.skillName}
           >
             <img
-              src={getIconPath(skill.skillName)}
+              src={skill.imagePath}
               alt={skill.skillName}
               width="40"
               height="40"

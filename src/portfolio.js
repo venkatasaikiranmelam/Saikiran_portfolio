@@ -62,47 +62,60 @@ const skillsSection = {
     emoji("⚡ Specialize in Chat Analytics, Generative AI, and multi-agent orchestration")
   ],
 
-softwareSkills: [
-  { skillName: "Python", imagePath: "icons/python.svg" },
-  { skillName: "R", imagePath: "icons/r.svg" },
-  { skillName: "SQL", imagePath: "icons/sql.svg" },
-  { skillName: "Bash", imagePath: "icons/bash.svg" },
-  { skillName: "PySpark", imagePath: "icons/apachespark.svg" },
-  { skillName: "TensorFlow", imagePath: "icons/tensorflow.svg" },
-  { skillName: "PyTorch", imagePath: "icons/pytorch.svg" },
-  { skillName: "Power BI", imagePath: "icons/powerpoint.svg" },
-  { skillName: "Tableau", imagePath: "icons/tableau.svg" },
-  { skillName: "Grafana", imagePath: "icons/grafana.svg" },
-  { skillName: "Snowflake", imagePath: "icons/snowflake.svg" },
-  { skillName: "Azure", imagePath: "icons/azure.svg" },
-  { skillName: "Azure Data Factory", imagePath: "icons/azureaicolor.svg" },
-  { skillName: "Vertex AI", imagePath: "icons/vertexai.svg" },
-  { skillName: "Apache Spark", imagePath: "icons/apachespark.svg" },
-  { skillName: "Apache Airflow", imagePath: "icons/apacheairflow.svg" },
-  { skillName: "Kafka", imagePath: "icons/apachekafka.svg" },
-  { skillName: "Docker", imagePath: "icons/docker.svg" },
-  { skillName: "Git", imagePath: "icons/git.svg" },
-  { skillName: "GitHub", imagePath: "icons/github.svg" },
-  { skillName: "Jupyter", imagePath: "icons/jupyter.svg" },
-  { skillName: "Linux", imagePath: "icons/linux.svg" },
-  { skillName: "Excel", imagePath: "icons/excel.svg" },
-  { skillName: "BERT / LLMs", imagePath: "icons/bedrockcolor.svg" },
-  { skillName: "LangChain", imagePath: "icons/langchain.svg" },
-  { skillName: "CrewAI", imagePath: "icons/crewai.svg" },
-  { skillName: "OpenAI", imagePath: "icons/openai.svg" },
-  { skillName: "Midjourney", imagePath: "icons/midjourney.svg" },
-  { skillName: "Mistral", imagePath: "icons/mistralcolor.svg" },
-  { skillName: "Hugging Face", imagePath: "icons/huggingface.svg" },
-  { skillName: "AWS", imagePath: "icons/awscolor.svg" },
-  { skillName: "AWS Lambda", imagePath: "icons/awslambda.svg" },
-  { skillName: "AWS EC2", imagePath: "icons/awsec2.svg" },
-  { skillName: "AWS S3", imagePath: "icons/awss3.svg" },
-  { skillName: "AWS RDS", imagePath: "icons/awsrdssvgrepo.svg" },
-  { skillName: "AWS Glue", imagePath: "icons/awscloudformation.svg" },
-  { skillName: "API Gateway", imagePath: "icons/awsapigateway.svg" },
-  { skillName: "CloudWatch", imagePath: "icons/awscloudwatch.svg" },
-  { skillName: "Copilot", imagePath: "icons/copilotcolor.svg" }
-],
+  softwareSkills: [
+    // Languages
+    { skillName: "Python", imagePath: "icons/python.svg" },
+    { skillName: "R", imagePath: "icons/r.svg" },
+    { skillName: "SQL", imagePath: "icons/sql.svg" },
+    { skillName: "Bash", imagePath: "icons/bash.svg" },
+
+    // ML Frameworks
+    { skillName: "TensorFlow", imagePath: "icons/tensorflow.svg" },
+    { skillName: "PyTorch", imagePath: "icons/pytorch.svg" },
+    { skillName: "BERT / LLMs", imagePath: "icons/bedrockcolor.svg" },
+    { skillName: "LangChain", imagePath: "icons/langchain.svg" },
+    { skillName: "CrewAI", imagePath: "icons/crewai.svg" },
+    { skillName: "OpenAI", imagePath: "icons/openai.svg" },
+    { skillName: "Midjourney", imagePath: "icons/midjourney.svg" },
+    { skillName: "Mistral", imagePath: "icons/mistralcolor.svg" },
+    { skillName: "Hugging Face", imagePath: "icons/huggingface.svg" },
+
+    // Cloud
+    { skillName: "Azure", imagePath: "icons/azure.svg" },
+    { skillName: "Azure Data Factory", imagePath: "icons/azureaicolor.svg" },
+    { skillName: "Vertex AI", imagePath: "icons/vertexai.svg" },
+    { skillName: "AWS", imagePath: "icons/awscolor.svg" },
+    { skillName: "AWS Lambda", imagePath: "icons/awslambda.svg" },
+    { skillName: "AWS EC2", imagePath: "icons/awsec2.svg" },
+    { skillName: "AWS S3", imagePath: "icons/awss3.svg" },
+    { skillName: "AWS RDS", imagePath: "icons/awsrdssvgrepo.svg" },
+    { skillName: "AWS Glue", imagePath: "icons/awscloudformation.svg" },
+    { skillName: "API Gateway", imagePath: "icons/awsapigateway.svg" },
+    { skillName: "CloudWatch", imagePath: "icons/awscloudwatch.svg" },
+    { skillName: "Copilot", imagePath: "icons/copilotcolor.svg" },
+
+    // Big Data
+    { skillName: "Apache Spark", imagePath: "icons/apachespark.svg" },
+    { skillName: "Apache Airflow", imagePath: "icons/apacheairflow.svg" },
+    { skillName: "Kafka", imagePath: "icons/apachekafka.svg" },
+    { skillName: "Snowflake", imagePath: "icons/snowflake.svg" },
+    { skillName: "PySpark", imagePath: "icons/apachespark.svg" },
+
+    // Visualization
+    
+    { skillName: "Tableau", imagePath: "icons/tableau.svg" },
+    { skillName: "Grafana", imagePath: "icons/grafana.svg" },
+	{ skillName: "Power BI", imagePath: "icons/powerbi.svg" },
+
+    // Tools
+    { skillName: "Docker", imagePath: "icons/docker.svg" },
+    { skillName: "Git", imagePath: "icons/git.svg" },
+    { skillName: "GitHub", imagePath: "icons/github.svg" },
+    { skillName: "Jupyter", imagePath: "icons/jupyter.svg" },
+    { skillName: "Linux", imagePath: "icons/linux.svg" },
+    { skillName: "Excel", imagePath: "icons/excel.svg" },
+	{ skillName: "Power point", imagePath: "icons/powerpoint.svg" },
+  ],
 
   display: true
 };
