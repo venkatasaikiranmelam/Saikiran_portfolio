@@ -94,7 +94,7 @@ I’m always excited to connect, collaborate, and learn from others in the tech 
 💻 GitHub: [venkatasaikiranmelam](https://github.com/venkatasaikiranmelam)
 
 ---
-                                                     ## 🎨 Illustrations & Animations
+## 🎨 Illustrations & Animations
 
 All animations are powered by Lottie, downloaded from [LottieFiles](https://lottiefiles.com). You can replace them easily by adding `.json` files to `src/assets/lottie`.
 
