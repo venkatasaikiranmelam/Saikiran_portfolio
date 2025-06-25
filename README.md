@@ -2,7 +2,7 @@
 
 [![Live](https://img.shields.io/badge/Visit-Live%20Site-green?style=for-the-badge&logo=vercel&logoColor=white)](https://www.saikiranmelam.com/)
 [![GitHub](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github)](https://github.com/venkatasaikiranmelam)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saikiranmelam/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mvsaikiran92/)
 
 Welcome to my personal portfolio a space where I showcase my skills, experiences, and passion for data-driven solutions. Whether it's building predictive models, creating insightful dashboards, or exploring cutting-edge AI and automation.
 
@@ -10,7 +10,7 @@ Welcome to my personal portfolio a space where I showcase my skills, experiences
 
 ## ✨ About This Portfolio
 
-This portfolio was built to present my journey as a **Data Enthusiast** — combining **Analytics, Machine Learning, LLMs**, and **Intelligent Automation** into real-world impact. Designed with React, styled for responsiveness, and enhanced using animations, this site reflects my work and growth.
+This portfolio was built to present my journey as a **Data Enthusiast** combining **Analytics, Machine Learning, LLMs**, and **Intelligent Automation** into real-world impact. Designed with React, styled for responsiveness, and enhanced using animations, this site reflects my work and growth.
 
 ### 🖼️ Visual Experience
 
