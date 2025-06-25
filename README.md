@@ -1,10 +1,10 @@
-# 👋 Hi, I'm Saikiran Melam
+# 🌐 Saikiran Melam – Personal Portfolio Website
 
-[![Live Site](https://img.shields.io/badge/🌐%20Visit-saikiranmelam.com-brightgreen?style=for-the-badge)](https://www.saikiranmelam.com/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saikiranmelam/)
-[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/venkatasaikiranmelam)
+[![Live](https://img.shields.io/badge/Visit-Live%20Site-green?style=for-the-badge&logo=vercel&logoColor=white)](https://www.saikiranmelam.com/)
+[![GitHub](https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github)](https://github.com/venkatasaikiranmelam)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saikiranmelam/)
 
-Welcome to my personal portfolio website a space where I showcase my skills, experiences, and passion for data-driven solutions. Whether it's building predictive models, creating insightful dashboards, or exploring cutting-edge AI and automation, I bring curiosity and commitment to every project.
+Welcome to my personal portfolio a space where I showcase my skills, experiences, and passion for data-driven solutions. Whether it's building predictive models, creating insightful dashboards, or exploring cutting-edge AI and automation.
 
 ---
 
@@ -89,11 +89,31 @@ This portfolio is built using:
 
 I’m always excited to connect, collaborate, and learn from others in the tech space. Feel free to reach out!
 
-📧 Email: melamsaikiran@gmail.com  
+📧 Email: venkatakiranmelam@gmail.com  
 💼 LinkedIn: [Saikiran Melam](https://www.linkedin.com/in/saikiranmelam)  
 💻 GitHub: [venkatasaikiranmelam](https://github.com/venkatasaikiranmelam)
 
 ---
+                                                     ## 🎨 Illustrations & Animations
 
-© 2025 Saikiran Melam. All rights reserved.
+All animations are powered by Lottie, downloaded from [LottieFiles](https://lottiefiles.com). You can replace them easily by adding `.json` files to `src/assets/lottie`.
 
+---
+
+## 🙏 Credits & Acknowledgments
+
+- Animations from [LottieFiles](https://lottiefiles.com)  
+- Icons and design assets from [UnDraw](https://undraw.co/)  
+- React-based template and structure concept from open-source contributions
+
+---
+
+## 🤝 Want to Contribute?
+
+Pull requests are welcome! If you've created something awesome using this template, feel free to fork and tag me.
+
+---
+
+### 🧡 This website was inspired by the incredible work of [Saad Pasta](https://github.com/saadpasta)
+
+© 2025 Saikiran Melam · All rights reserved.
