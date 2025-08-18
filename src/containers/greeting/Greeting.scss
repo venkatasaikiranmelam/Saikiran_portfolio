@@ -47,6 +47,12 @@
   line-height: 1.1;
   color: $textColor !important;
 }
+.greeting-photo {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
 .greeting-text-p {
   font-size: 30px;
@@ -116,12 +122,68 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    height: auto;
   }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+}
+/* --- Greeting layout fixes --- */
+.greeting-main {
+  display: flex;
+  align-items: center;        /* vertically align text + image */
+  justify-content: space-between;
+  gap: 2rem;                  /* breathing room between columns */
+  flex-wrap: nowrap;
+}
+
+/* keep columns balanced and readable */
+.greeting-text-div {
+  flex: 1 1 55%;
+  max-width: 720px;           /* prevents super-wide lines */
+}
+
+.greeting-image-div {
+  flex: 0 1 40%;
+  display: flex;
+  justify-content: center;
+}
+
+/* normalize your photo’s shape/size */
+.greeting-image-div img,
+.greeting-photo {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 4 / 3;        /* avoids tall/skinny feel */
+  object-fit: cover;          /* crop edges instead of stretching */
+  border-radius: 20px;
+}
+
+/* improve paragraph readability */
+.greeting-text-p {
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* responsive: stack + center on small screens */
+@media (max-width: 992px) {
+  .greeting-main {
+    flex-direction: column-reverse;   /* text above, image below (flip if you prefer) */
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+  }
+  .greeting-text-div,
+  .greeting-image-div {
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+  .greeting-image-div img,
+  .greeting-photo {
+    max-width: 420px;
+    aspect-ratio: auto;       /* let it breathe on small screens */
   }
 }

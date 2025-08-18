@@ -1,0 +1,252 @@
+[33mcommit 3d0427c949aa79309e2dcf0a22dfce91f39ce2e5[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: saikiran <saikiranmelam@gmail.com>
+Date:   Mon Jun 23 09:42:13 2025 -0700
+
+    Pushing updated working code
+
+[33mcommit c7c1377e1f5624c6a2cfa88b32bfc60cf27d1d23[m
+Author: venkatasaikiranmelam <114895412+venkatasaikiranmelam@users.noreply.github.com>
+Date:   Mon Jun 16 15:08:27 2025 -0400
+
+    Add files via upload
+
+[33mcommit 756ce0e596e030ce01f692a36a51b341306ac881[m
+Author: saikiran <saikiranmelam@gmail.com>
+Date:   Sat Jun 14 16:31:54 2025 -0400
+
+    Initial portfolio commit
+
+[33mcommit fc693405936fae6f5e5a4ba4c1da11513732f748[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Naman Agrawal <56677651+namanagrwl@users.noreply.github.com>
+Date:   Fri Oct 18 12:47:18 2024 -0400
+
+    Updated Dockerfile (#672)
+    
+    Bumped up node-alpine image version to fix docker run command error.
+
+[33mcommit f4bc0bc46305c23f0e9315546cea917d6d91ab77[m
+Author: Gokul Raja <106546785+Gokul-Raja84@users.noreply.github.com>
+Date:   Fri Oct 18 22:12:53 2024 +0530
+
+    Added target='_blank' and rel='noreferrer' to external link in Footer… (#719)
+    
+    * Added target='_blank' and rel='noreferrer' to external link in Footer component
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    ---------
+    
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit 8046128a05d5e3c419ce85ee97d61bf7221e8886[m
+Author: TheinSoe <74194816+TheinSoe137@users.noreply.github.com>
+Date:   Fri Oct 18 23:12:24 2024 +0630
+
+    fix:Incomplete string escaping or encoding #709 (#723)
+    
+    * fix:Incomplete string escaping or encoding #709
+    
+    add additional methods to extracts blogs' text content within paragraph tags'.And tested.
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    ---------
+    
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit 8bb65dcc41269f511cfbeedc6a428d3962593b43[m
+Author: YiChun Chen <chenyichun19971110@gmail.com>
+Date:   Fri Oct 18 09:39:27 2024 -0700
+
+    fix: resume path in Readme  (#734)
+    
+    * fix resume in readme
+    
+    * fix bug
+    
+    * Remove .idea files from tracking and update .gitignore
+
+[33mcommit 2b94cad6419d008ce3a1cfb57d4e8658749c836b[m
+Author: Jolomi Tosanwumi <67708539+Jolomi-Tosanwumi@users.noreply.github.com>
+Date:   Fri Oct 18 12:36:52 2024 -0400
+
+    Fix: Resume button in nav bar (#738)
+    
+    * fixed resume nav bar issue
+    
+    * created empty div
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    * modified margin of empty div
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    ---------
+    
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit d3fdcee6833edce90ccf97ec1dd6ba14db98ab93[m
+Author: Daivik Karbhari <114691318+User-DK@users.noreply.github.com>
+Date:   Mon May 20 02:45:21 2024 +0530
+
+    Update README.md (#695)
+    
+    fixed a small typing mistake
+
+[33mcommit 1b69fbd0df376c326c7a41aee43deac3c26c9c68[m
+Author: Rebecca <107712113+rebeccali04@users.noreply.github.com>
+Date:   Sun Apr 28 07:17:00 2024 -0400
+
+    Feature-Resume display and download (#698)
+    
+    * Create ResumeDownloadButton.js
+    
+    * Updated github pages
+    
+    Updated github pages
+    
+    * Resume feature 1st version
+    
+    Missing adding feature to top bar
+    
+    * Style
+    
+    ran npm run format
+    
+    * Fixed UI to match the webpage
+    
+    Resume can now be accessed by the toolbar above and by the button in the greeting page.
+    
+    Fixed the title and subtitle arrangement.
+    
+    * Fixed format
+    
+    Fixed format
+    
+    * Update README.md with resume instructions
+    
+    * Updated resume feature
+    
+    Downloads resume after clicking button,
+    Deleted resume container in website
+    
+    * Changed underlined font of bottun
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    * Updated style to pass lint
+    
+    * Directly Download button
+    
+    ---------
+    
+    Co-authored-by: NMCBU1 <86202623+NMCBU1@users.noreply.github.com>
+    Co-authored-by: NMCBU1 <nmarulandac@gmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit f16db7c3d669b93101b71a6e063b9b5d55ab3b98[m
+Author: Muhammad Ahsan Ayaz <9844254+AhsanAyaz@users.noreply.github.com>
+Date:   Sun Oct 1 14:12:48 2023 +0200
+
+    fix(ci): update workflow to use node 18.x (#646)
+
+[33mcommit a323aa2f73d9ad9c2a2f5d33a681f39761bfec82[m
+Author: Muhammad Ahsan Ayaz <9844254+AhsanAyaz@users.noreply.github.com>
+Date:   Sun Sep 10 20:42:23 2023 +0200
+
+    fix(ci): fix prettier (#633)
+    
+    * fix(ci): fix prettier
+    
+    fixed prettier for CI builds failing due to node 12.x
+    updated the github action setup-node to latest
+    
+    * fix(ci): use npm script instead of global prettier
+
+[33mcommit ac2baf8bfe9e30bb7a1add7772b6f0ffb31c524d[m
+Author: Karthik Mohan <25052382+karthikmohan@users.noreply.github.com>
+Date:   Mon Aug 28 01:12:45 2023 +0530
+
+    Update deploy.yml (#627)
+    
+    Co-authored-by: Karthik Mohan <karthik@esper.io>
+
+[33mcommit 4672e2a5a846d2288a7f46a4965a8791441290f0[m
+Author: Muhammad Ahsan Ayaz <9844254+AhsanAyaz@users.noreply.github.com>
+Date:   Sun Aug 27 21:41:24 2023 +0200
+
+    fix(ci): fix build failing due to old (and deprecated) packages (#630)
+    
+    * fix(ci): fix build failing due to old (and deprecated) packages
+    
+    * docs(readme): update lottie-react references
+    
+    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+    
+    for more information, see https://pre-commit.ci
+    
+    ---------
+    
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit 27b12fd003a9d9dadbc1ff5197c487b06da823b7[m
+Author: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Date:   Mon Feb 27 22:57:54 2023 +0500
+
+    docs: add KazAttarwala as a contributor for code (#605)
+    
+    * docs: update README.md [skip ci]
+    
+    * docs: update .all-contributorsrc [skip ci]
+    
+    ---------
+    
+    Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+
+[33mcommit bae70cef50ac1f8c931b333f8276c5096c7b971f[m
+Author: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+Date:   Fri Feb 10 16:54:26 2023 +0500
+
+    docs: add muneebahmedayub as a contributor for code (#598)
+    
+    * docs: update README.md [skip ci]
+    
+    * docs: update .all-contributorsrc [skip ci]
+    
+    ---------
+    
+    Co-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>
+
+[33mcommit 462b26c3def7bff4170fd083b2b6c670f0e7414e[m
+Author: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Date:   Fri Jan 20 16:54:38 2023 +0500
+
+    [pre-commit.ci] pre-commit autoupdate (#478)
+    
+    updates:
+    - [github.com/pre-commit/mirrors-prettier: v2.5.1 → v3.0.0-alpha.4](https://github.com/pre-commit/mirrors-prettier/compare/v2.5.1...v3.0.0-alpha.4)
+    
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[33mcommit 5b7dfb8870fdcbf78f2c13a57fb2905c36c16ebd[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Jan 17 23:13:55 2023 +0500
+
+    Bump minimatch and react-scripts (#565)
+    
+    Bumps [minimatch](https://github.com/isaacs/minimatch) to 3.1.2 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
+    
+    
+    Updates `minimatch` from 3.0.4 to 3.1.2
+    - [Release notes](https://github.com/isaacs/minimatch/releas
